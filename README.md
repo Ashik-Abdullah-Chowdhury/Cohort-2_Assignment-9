@@ -11,6 +11,7 @@ This research evaluates the 2024 flash flood event in Feni, Bangladesh. By bridg
 *   [GEE script](https://code.earthengine.google.com/3b1c33d68d9bd615b2a9c5f4802c5372)
 *   [Case study report pdf](https://github.com/Ashik-Abdullah-Chowdhury/Cohort-2_Assignment-9/blob/main/Ashik_Assignment_9.pdf)
 *   [Flood extent map](https://github.com/Ashik-Abdullah-Chowdhury/Cohort-2_Assignment-9/blob/main/feni%20fw%20copy.png)
+*   [Study area map](https://github.com/Ashik-Abdullah-Chowdhury/Cohort-2_Assignment-9/blob/main/Study_Area(Feni).png)
 
 
 ---
