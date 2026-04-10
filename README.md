@@ -1,1 +1,55 @@
-# Cohort-2_Assignment-9
+# 🛰️ **Case Study: Post-Flood Recovery Analysis (Feni 2024)**
+### **Integrating SAR Hydrology with NTL Socio-Economic Indicators**
+
+---
+
+## **1. Executive Summary**
+This research evaluates the 2024 flash flood event in Feni, Bangladesh. By bridging **physical remote sensing** (Sentinel-1 SAR) with **human activity proxies** (VIIRS Night-time Lights), we examine how economic wealth and population density influence the speed of infrastructural recovery.
+
+> **Note:** For the full academic report, detailed maps, and comprehensive literature review, please refer to the **PDF document** available in the [GitHub Repository].
+
+---
+
+## **2. Methodology & Modeling**
+
+### **2.1 Flood Mapping Workflow**
+* **Active Sensor:** Sentinel-1 SAR (VH) for all-weather detection.
+* **Refinement:** Topographic filtering ($<50$m elevation) and NDWI-based permanent water masking to isolate "event-specific" inundation.
+
+### **2.2 NTL Recovery Index ($Y_{rec}$)**
+We formulated an index to normalize recovery against the pre-flood baseline:
+$$Y_{rec} = \frac{NTL_{Recovery} - NTL_{Post}}{NTL_{Pre} + 0.1}$$
+
+### **2.3 Multivariate Regression Model**
+The drivers of regional resilience were analyzed using the following linear model:
+$$Y_{rec} = \beta_0 + \beta_1(PopDensity) + \beta_2(WealthIndex) + \epsilon$$
+
+---
+
+## **3. Empirical Results**
+
+The multivariate regression yielded the following relationship:
+> **$Y_{rec} = 0.64 - 0.017(PopDensity) + 0.35(WealthIndex)$**
+
+| Variable | Coefficient ($\beta$) | Impact on Recovery |
+| :--- | :---: | :--- |
+| **Intercept ($\beta_0$)** | $0.64$ | Baseline recovery trend |
+| **Population Density ($\beta_1$)** | $-0.017$ | Weak negative (Infrastructural lag) |
+| **Wealth Index ($\beta_2$)** | $0.35$ | Strong positive (Adaptive capacity) |
+
+---
+
+## **4. Core Findings**
+* **Wealth as a Catalyst:** The strong positive correlation with wealth indicates that financial liquidity and decentralized power resources are the primary predictors of rapid recovery.
+* **Density Vulnerability:** High-density zones exhibit a "recovery lag" due to complex grid damage and prolonged waterlogging in impervious urban environments.
+
+---
+
+## **5. Technical Limitations**
+* **Sub-canopy Flooding:** Possible underestimation in forested patches (SAR limitation).
+* **Spatial Decoupling:** NTL radiance captures commercial hubs better than residential-only population clusters.
+* **Displacement:** Static population data cannot capture real-time human migration during the event.
+
+---
+**Author:** Ashik Abdullah Chowdhury  
+*B.Sc (Hon's) in Forestry, University of Chittagong*
