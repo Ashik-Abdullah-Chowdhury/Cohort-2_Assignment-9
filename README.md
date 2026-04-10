@@ -16,7 +16,7 @@ This research evaluates the 2024 flash flood event in Feni, Bangladesh. By bridg
 
 ### **2.1 Flood Mapping Workflow**
 * **Active Sensor:** Sentinel-1 SAR (VH) for all-weather detection.
-* **Refinement:** Topographic filtering ($<50$m elevation) and NDWI-based permanent water masking to isolate "event-specific" inundation.
+* **Refinement:** Topographic filtering (<50m elevation) and NDWI-based permanent water masking to isolate "event-specific" inundation.
 
 ### **2.2 NTL Recovery Index ($Y_{rec}$)**
 We formulated an index to normalize recovery against the pre-flood baseline:
