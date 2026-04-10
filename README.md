@@ -36,8 +36,8 @@ The multivariate regression yielded the following relationship:
 | Variable | Coefficient ($\beta$) | Impact on Recovery |
 | :--- | :---: | :--- |
 | **Intercept ($\beta_0$)** | $0.64$ | Baseline recovery trend |
-| **Population Density ($\beta_1$)** | $-0.017$ | Weak negative (Infrastructural lag) |
-| **Wealth Index ($\beta_2$)** | $0.35$ | Strong positive (Adaptive capacity) |
+| **Population Density ($\beta_1$)** | $-0.017$ | Weak negative  |
+| **Wealth Index ($\beta_2$)** | $0.35$ | Strong positive  |
 
 ---
 
