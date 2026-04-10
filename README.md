@@ -7,7 +7,7 @@
 This research evaluates the 2024 flash flood event in Feni, Bangladesh. By bridging **physical remote sensing** (Sentinel-1 SAR) with **human activity proxies** (VIIRS Night-time Lights), we examine how economic wealth and population density influence the speed of infrastructural recovery.
 
 > **Note:** 
-[GEE script](https://code.earthengine.google.com/32b00ddb51164a48d52818c9318f2ade)
+[GEE script](https://code.earthengine.google.com/3b1c33d68d9bd615b2a9c5f4802c5372)
 
 
 ---
